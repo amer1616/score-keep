@@ -1,0 +1,21 @@
+.player{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player__name{
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.player__stats{
+  font-size: 1.2rem;
+  font-style: italic;
+
+}
+
+.player__actions{
+  // never shrink actions item regardless size of div name&stats
+  flex-shrink: 0;
+}

@@ -1,0 +1,13 @@
+.form{
+  display: flex;
+}
+
+.form__input{
+  // flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;
+  // flex: 0 1 80%;
+  flex-grow: 1;
+  border: 1px solid #e8e8ee;
+  padding: 0 1rem;
+}
+
+

@@ -1,0 +1,39 @@
+// variables
+$green: rgb(225, 255, 225);
+$green-alt: darken($green, 15%);
+$blue: rgb(220, 220, 255);
+$blue-alt: darken($blue, 15%);
+$red: rgb(255, 223, 223);
+$red-alt: darken($red, 15%);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+html{
+  font-size: 80%;
+}
+
+body{
+  background: #f2f2f2;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+
+}
+
+
+@import './components/_title-bar.scss';
+@import './components/_wrapper.scss';
+@import './components/_item.scss';
+@import './components/_button.scss';
+@import './components/_player.scss';
+@import './components/_form.scss';
